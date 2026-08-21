@@ -1,2 +1,1 @@
-# theOdinProject
-Hello Odin!
+# Project Hub
