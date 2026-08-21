@@ -1,1 +1,1 @@
-# The Odin Project
+# Foundations | Recepies
