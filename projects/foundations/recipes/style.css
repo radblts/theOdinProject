@@ -1,0 +1,22 @@
+body {
+  background-color: antiquewhite;
+  color: #2e2e2e;
+  padding: 3%;
+}
+
+a:link,
+a:link:active,
+a:link::after {
+  color: #f07808;
+  text-decoration: none;
+}
+
+img {
+  float: right;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #2e2e2e;
+}
