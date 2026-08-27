@@ -4,11 +4,16 @@ body {
   padding: 3%;
 }
 
-a:link,
-a:link:active,
-a:link::after {
+a,
+a:visited,
+a:active {
   color: #f07808;
   text-decoration: none;
+}
+
+a:hover {
+  color: #da6b03;
+  text-decoration: underline;
 }
 
 img {
