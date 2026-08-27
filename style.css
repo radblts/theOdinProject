@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Predefined values from the assignment set as CSS variables */
+* {
+    font-family: Roboto, serif;
+
+    --dark-background-color: #1F2937;
+
+    --logo-font-size: 24px;
+    --logo-text-color: #F9FAF8;
+
+    --hero-main-text-font-size: 48px;
+    --hero-main-text-color: #F9FAF8;
+    --hero-main-text-weight: 900;
+
+    --hero-second-text-font-size: 36px;
+    --hero-second-text-color: #E5E7EB;
+
+    --button-background-color: #3882F6;
+
+    --information-heading-font-size: 36px;
+    --information-heading-color: #1F2937;
+    --information-heading-weight: 900;
+
+    --quote-background-color: #E5E7EB;
+    --quote-font-size: 36px;
+    --quote-color: #1F2937;
+    --quote-weight: 300;
+    --quote-font-style: italic;
+}
