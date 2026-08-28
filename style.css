@@ -115,6 +115,19 @@ header ul {
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--quote-background-color);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: var(--quote-color);
+  font-size: var(--quote-font-size);
+  font-weight: var(--quote-weight);
+  font-style: var(--quote-font-style);
+}
+
+.source {
+  align-self: flex-end;
 }
 
 .action-banner {
