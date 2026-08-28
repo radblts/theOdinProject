@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Predefined values from the assignment set as CSS variables */
+* {
+  margin: 0;
+
+  font-family: Roboto, serif;
+
+  --dark-background-color: #1f2937;
+
+  --logo-font-size: 24px;
+  --logo-text-color: #f9faf8;
+
+  --hero-main-text-font-size: 48px;
+  --hero-main-text-color: #f9faf8;
+  --hero-main-text-weight: 900;
+
+  --hero-second-text-font-size: 36px;
+  --hero-second-text-color: #c7c7c7;
+
+  --button-background-color: #3882f6;
+
+  --information-heading-font-size: 36px;
+  --information-heading-color: #1f2937;
+  --information-heading-weight: 900;
+
+  --quote-background-color: #e5e7eb;
+  --quote-font-size: 36px;
+  --quote-color: #1f2937;
+  --quote-weight: 300;
+  --quote-font-style: italic;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: var(--button-background-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--logo-text-color);
+  border-style: none;
+}
+
+.hero-section,
+.information-panels,
+.quote,
+.action-banner,
+footer {
+  padding: 0% 30%;
+}
+
+.hero-section {
+  background-color: var(--dark-background-color);
+  padding-top: 2%;
+}
+
+li.logo {
+  margin-right: auto;
+  font-size: var(--logo-font-size);
+  color: var(--logo-text-color);
+}
+
+header ul {
+  color: var(--hero-second-text-color);
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 0;
+  align-items: center;
+}
+
+.thumbnail {
+  padding: 10% 0%;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--hero-main-text-color);
+}
+
+.hero-text p {
+  color: var(--hero-second-text-color);
+}
+
+.hero-text button {
+  margin-top: 10px;
+  max-width: fit-content;
+}
+
+.information-section {
+  margin: 2% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.information-section h2 {
+  font-size: var(--information-heading-font-size);
+  margin-bottom: 2%;
+}
+
+.information-section ul {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.information-section img {
+  border-radius: 10px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--quote-background-color);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: var(--quote-color);
+  font-size: var(--quote-font-size);
+  font-weight: var(--quote-weight);
+  font-style: var(--quote-font-style);
+}
+
+.source {
+  align-self: flex-end;
+}
+
+.action-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  background-color: var(--button-background-color);
+  padding: 0;
+  margin: 2% 30%;
+  border-radius: 5px;
+  color: var(--logo-text-color);
+}
+
+.action-banner button {
+  border-style: solid;
+  border-color: var(--logo-text-color);
+  max-height: fit-content;
+  align-self: center;
+}
+
+.action-text {
+  padding: 50px;
+}
+
+.action-header {
+  font-size: larger;
+  font-weight: bold;
+}
+
+footer {
+  background-color: var(--dark-background-color);
+  color: var(--logo-text-color);
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+a,
+a:visited,
+a:active {
+  color: var(--hero-second-text-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hero-main-text-color);
+  text-decoration: underline;
+}
