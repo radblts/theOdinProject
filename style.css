@@ -36,6 +36,14 @@ body {
   flex-direction: column;
 }
 
+button {
+  background-color: var(--button-background-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--logo-text-color);
+  border-style: none;
+}
+
 .hero-section,
 .information-panels,
 .quote,
@@ -131,6 +139,31 @@ header ul {
 }
 
 .action-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5%;
+  background-color: var(--button-background-color);
+  padding: 0;
+  margin: 2% 30%;
+  border-radius: 5px;
+  color: var(--logo-text-color);
+}
+
+.action-banner button {
+  border-style: solid;
+  border-color: var(--logo-text-color);
+  max-height: fit-content;
+  align-self: center;
+}
+
+.action-text {
+  padding: 50px;
+}
+
+.action-header {
+  font-size: larger;
+  font-weight: bold;
 }
 
 footer {
