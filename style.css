@@ -167,4 +167,9 @@ header ul {
 }
 
 footer {
+  background-color: var(--dark-background-color);
+  color: var(--logo-text-color);
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
