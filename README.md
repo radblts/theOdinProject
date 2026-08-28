@@ -18,3 +18,7 @@ Finally, feel free to substitute your own content into this design. The image ha
 
 ## Notes
 
+Please don't resize it.. :,)
+I think it's not bad, but could be better.. a bit scuffed.
+
+Images used from https://picsum.photos
