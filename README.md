@@ -85,3 +85,80 @@ request multiple images of the same size, without caching
 <img src="https://picsum.photos/200/300?random=1">
 <img src="https://picsum.photos/200/300?random=2">
 ```
+
+## Setting up on a new device ୧( ◡̀_◡́)୨
+
+**Git**
+
+```
+git config --global user.name "Your Name"
+git config --global user.email yourname@example.com
+
+```
+
+```
+git config --global init.defaultBranch main
+```
+
+```
+ls ~/.ssh/id_ed25519.pub
+```
+
+```
+ssh-keygen -t ed25519
+```
+
+Add key on GitHub
+
+```
+cat ~/.ssh/id_ed25519.pub
+```
+
+```
+git config --global core.editor "code --wait"
+```
+
+sources: <br>
+https://www.theodinproject.com/lessons/foundations-setting-up-git <br>
+https://www.theodinproject.com/lessons/foundations-git-basics
+
+**Installing nvm on Linux**
+
+```
+sudo apt update && sudo apt upgrade
+```
+
+```
+sudo apt install curl
+```
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+```
+
+```
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+```
+command -v nvm
+```
+
+source: https://github.com/TheOdinProject/curriculum/blob/main/foundations/javascript_basics/installation_guides/linux.md
+
+**Installing Node**
+
+```
+nvm install --lts
+```
+
+```
+nvm use --lts
+```
+
+```
+npm config set min-release-age=3
+```
+
+source: https://www.theodinproject.com/lessons/foundations-installing-node-js
